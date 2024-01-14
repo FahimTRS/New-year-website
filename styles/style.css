@@ -284,3 +284,76 @@ line-height: 32px;
 .awesome-photo img {
     width: 100%;
 }
+
+/* newsletter section */
+.newsletter-section{
+    
+    max-width: 1600px;
+    margin: 50px auto;
+    background: rgba(255, 0, 0, 0.05)
+    
+    
+
+}
+.newsletter-content{
+    text-align: center;
+    padding: 80px 200px;
+
+}
+
+.newsletter-content h2{
+color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.newsletter-content p{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+
+}
+
+
+.newsletter-input{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    padding: 30px 300px;
+    gap: 0px;
+}
+.newsletter-input input{
+    width: 648px;
+height: 50px;
+border-radius: 10px;
+background: #FFF;
+padding: 20px 40px 20px 10px;
+
+color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+
+}
+.newsletter-input button{
+width: 210px;
+height: 89px;
+border: 0px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+
+}
+
+
+/* footer section */
