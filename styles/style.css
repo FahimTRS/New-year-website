@@ -16,28 +16,39 @@ body{
 /* header section */
 
 header{
-    border: 2px solid black;
-    margin: 50px auto;
-    width: 95%;
-   height: 400px;
+    margin: 0px auto;
+    width: 100%;
+   height: 600px;
     text-align: center;
-    background: url(../images/Banner\ Image.png);
+    background: linear-gradient(#070211, #07021100),  url(../images/Banner\ Image.png);
     background-position: center;
     background-size: cover;
+    /* linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%), */
+}
+header .header-tittle{
+    text-align: center;
+    padding-top: 170px;
+}
+
+.header-tittle h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
     
-    
+}
+.header-tittle h1{
+ color: #FFF;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px; 
 }
 
 
 
-
-
-
-
-
-/* (80deg, #070211 0%, rgba(7, 2, 17, 0) 100%), */
-
 /* cate section */
+
 .cate{
     margin: 120px auto;
     text-align: center;
